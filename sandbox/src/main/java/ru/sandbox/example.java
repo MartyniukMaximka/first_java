@@ -1,3 +1,5 @@
+package ru.sandbox;
+
 public class example {
 
     public static void main(String args[])
