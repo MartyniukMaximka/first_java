@@ -4,8 +4,8 @@ mainClassName = "ru.sandbox.example"
 
 repositories{
     mavenCentral()
-}
 
+}
 dependencies {
     compile 'org.testng:testng:6.13.1'
 }
