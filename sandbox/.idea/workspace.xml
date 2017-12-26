@@ -4,6 +4,7 @@
     <list default="true" id="cfc7083c-a278-4120-8d7c-3c1a31ed167f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sandbox/Point.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sandbox/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -45,25 +46,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lineTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sandbox/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -705,8 +704,8 @@
         <option value="$PROJECT_DIR$/../addressbook/src/test/java/ru/addressbook/appmanager/GroupHelper1.java" />
         <option value="$PROJECT_DIR$/../addressbook/src/test/java/ru/addressbook/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sandbox/point.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sandbox/Point.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java" />
       </list>
     </option>
   </component>
@@ -717,10 +716,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="14" />
-    <option name="y" value="20" />
+    <option name="x" value="19" />
+    <option name="y" value="6" />
     <option name="width" value="1398" />
-    <option name="height" value="981" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -740,9 +739,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -801,6 +798,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1096,27 +1095,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTests - 2017.12.07 at 16h 27m 50s.xml">
-      <configuration name="SquareTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SquareTests - 2017.12.07 at 16h 28m 20s.xml">
-      <configuration name="SquareTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SquareTests - 2017.12.07 at 20h 43m 50s.xml">
-      <configuration name="SquareTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="lineTest - 2017.12.25 at 16h 58m 16s.xml">
-      <configuration name="lineTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="lineTest - 2017.12.25 at 17h 00m 08s.xml">
-      <configuration name="lineTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="lineTest_Point - 2017.12.25 at 17h 07m 34s.xml">
-      <configuration name="lineTest.Point" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="lineTest_Point - 2017.12.26 at 08h 04m 33s.xml">
-      <configuration name="lineTest.Point" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="lineTest_Point - 2017.12.26 at 08h 05m 21s.xml">
       <configuration name="lineTest.Point" configurationId="TestNG" />
     </history-entry>
@@ -1126,12 +1104,34 @@
     <history-entry file="lineTest_Point - 2017.12.26 at 08h 07m 15s.xml">
       <configuration name="lineTest.Point" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 05m 29s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 08m 36s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 08m 57s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 09m 19s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 09m 49s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 11m 00s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="lineTest_Point - 2017.12.26 at 22h 11m 14s.xml">
+      <configuration name="lineTest.Point" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="2623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1141,12 +1141,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52497226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49278578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24327628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24633251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1171,7 +1171,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1509,23 +1509,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sandbox/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sandbox/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sandbox/lineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
