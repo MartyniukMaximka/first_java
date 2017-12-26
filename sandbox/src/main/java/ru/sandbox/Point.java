@@ -3,12 +3,12 @@ package ru.sandbox;
 public class Point {
 
 
-   // public static double a;
+    public static double a;
 
     public static double main (String args[])
     {
         double x1=1, x2=3, y1=1, y2=3;
-        double a;
+       // double a;
 
         a = Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 
