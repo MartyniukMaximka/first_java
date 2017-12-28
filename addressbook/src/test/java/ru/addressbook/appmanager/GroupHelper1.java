@@ -27,7 +27,6 @@ public class GroupHelper1 extends HelperBase{
     public void initGroupCreation() {
         click(By.name("new"));
     }
-
     public void deleteGroup() {
         click(By.name("delete"));
     }
@@ -43,4 +42,31 @@ public class GroupHelper1 extends HelperBase{
     public void submitGroupModification() {
         click(By.name("update"));
     }
+
+
+    //Контакты
+    public void initContactCreation() {
+        click(By.linkText("add new"));
+    }
+    public void submitContactCreation(){
+        click(By.name("submit"));
+    }
+    public void returnToHome() {
+        click(By.id("content"));
+    }
+    public void fillContactFrm() {
+        wd.findElement(By.name("firstname")).click();
+        wd.findElement(By.name("firstname")).clear();
+        wd.findElement(By.name("firstname")).sendKeys("Maxim");
+        wd.findElement(By.name("middlename")).click();
+        wd.findElement(By.name("middlename")).clear();
+        wd.findElement(By.name("middlename")).sendKeys("Martyniuk");
+        wd.findElement(By.name("lastname")).click();
+        wd.findElement(By.name("lastname")).clear();
+        wd.findElement(By.name("lastname")).sendKeys("Yo");
+        wd.findElement(By.name("address")).click();
+        wd.findElement(By.name("address")).clear();
+        wd.findElement(By.name("address")).sendKeys("ovruchskaya strt.");
+    }
+
 }
